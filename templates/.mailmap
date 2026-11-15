@@ -1,0 +1,9 @@
+# Формат: Правильное Имя <правильная@почта> Имя в коммите <почта в коммите>
+# __NAME__ и __EMAIL__ подставляет scripts/setup-machine.*; вручную — замените на свои.
+# Слева — единая подпись, справа — все старые варианты, которые нашлись в истории
+# (получить список: scripts/audit-identity.sh <папка>).
+
+__NAME__ <__EMAIL__> ivan petrov <ivan@personal.example>
+__NAME__ <__EMAIL__> Petrov Ivan <ivan@personal.example>
+__NAME__ <__EMAIL__> ipetrov <i.petrov@company.example>
+__NAME__ <__EMAIL__> ipetrov <12345+ipetrov@users.noreply.example>

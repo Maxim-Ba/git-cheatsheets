@@ -1,0 +1,8 @@
+# Положить в ~/.ssh/config (Windows: C:\Users\<имя>\.ssh\config)
+# Если у машины свой ключ — подставьте его имя в IdentityFile.
+
+Host gitverse.ru
+    HostName gitverse.ru
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes

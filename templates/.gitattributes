@@ -1,0 +1,42 @@
+# Все текстовые файлы хранить в репозитории с LF, независимо от ОС автора.
+* text=auto eol=lf
+
+# Скрипты и конфиги, где LF критичен (на Windows git иначе мог бы отдать CRLF)
+*.sh    text eol=lf
+*.py    text eol=lf
+*.java  text eol=lf
+*.kt    text eol=lf
+*.kts   text eol=lf
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.ts    text eol=lf
+*.json  text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.xml   text eol=lf
+*.md    text eol=lf
+*.sql   text eol=lf
+*.properties text eol=lf
+*.example text eol=lf
+Dockerfile text eol=lf
+
+# Windows-скрипты, которым нужен CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# Бинарные файлы: не трогать окончания строк, не показывать текстовый diff
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.tgz   binary
+*.gz    binary
+*.jar   binary
+*.whl   binary
+*.woff  binary
+*.woff2 binary
+*.p12   binary
+*.jks   binary
